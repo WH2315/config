@@ -1,0 +1,35 @@
+{
+    "editor.fontSize": 18,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.largeFileOptimizations": false,
+    "editor.fontFamily": "JetBrainsMonoNL NFM:style=Bold",
+    "editor.codeLensFontFamily": "JetBrainsMonoNL NFM:style=Bold",
+    "editor.inlayHints.fontFamily": "JetBrainsMonoNL NFM:style=Bold",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.enablePreview": false,
+    "workbench.tree.indent": 16,
+    "workbench.hover.delay": 100,
+    "debug.console.fontFamily": "JetBrainsMonoNL NFM:style=Bold",
+    "scm.inputFontFamily": "JetBrainsMonoNL NFM:style=Bold",
+    "extensions.experimental.affinity": {
+        "ms-vscode.cmake-tools": 2,
+        "llvm-vs-code-extensions.vscode-clangd": 3
+    },
+    "clangd.arguments": [
+        "--header-insertion=never",
+        "--compile-commands-dir=build",
+        "--clang-tidy"
+    ],
+    "clangd.path": "/home/wh/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/18.1.3/clangd_18.1.3/bin/clangd",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.options.statusBarVisibility": "compact",
+    "vim.insertModeKeyBindings": [
+        { "before": ["j", "j"], "after": ["<Esc>"] },
+    ],
+}
